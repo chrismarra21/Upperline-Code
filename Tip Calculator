@@ -1,0 +1,12 @@
+# Christine Marra
+
+# This program calculates how much should you tip the waiter.
+
+bill = (float(input ("How much is the bill?")))
+rate = (float(input ("What percent would you like to leave as a tip? Please enter as a decimal.")))
+tip = (bill * rate)
+print ("Your tip will be: $" + str(tip))
+print ("Your total cost will be: $"+ str(bill+tip))
+
+print (input("Thank you for dining with us today.  Did you enjoy your food?"))
+
